@@ -6274,6 +6274,13 @@ public final class Settings {
          * @hide
          */
         public static final String ADB_PORT = "adb_port";
+        
+        /**
+         * Use "main" tiles on the first row of the quick settings panel
+         * 0 = no, 1 = yes
+         * @hide
+         */
+        public static final String QS_USE_MAIN_TILES = "sysui_qs_main_tiles";
 
         /**
          * The hostname for this device

@@ -20,6 +20,13 @@
     <PreferenceCategory
         android:title="@string/qs_panel_title">
 
+        <com.android.systemui.chroma.SecureSettingSwitchPreference
+            android:key="sysui_qs_main_tiles"
+            android:title="@string/qs_main_tiles_title"
+            android:summaryOn="@string/qs_main_tiles_summary_on"
+            android:summaryOff="@string/qs_main_tiles_summary_off"
+            android:defaultValue="true" />
+
         <Preference
             android:key="qs_tuner"
             android:title="@string/qs_tiles_title" />
