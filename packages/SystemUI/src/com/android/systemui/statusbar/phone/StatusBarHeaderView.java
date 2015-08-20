@@ -43,6 +43,7 @@ import android.provider.CalendarContract.Events;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.MathUtils;
 import android.util.TypedValue;
 import android.view.View;
