@@ -438,9 +438,9 @@ public class StatusBarIconController implements Tunable {
         mMoreIcon.setImageTintList(ColorStateList.valueOf(mIconTint));
         mBatteryMeterView.setDarkIntensity(mDarkIntensity);
         mBatteryLevelTextView.setTextColor(mIconTint);
-//        mClock.setTextColor(mIconTint);
-//        mCenterClock.setTextColor(mIconTint);
-//        mLeftClock.setTextColor(mIconTint);
+        mClock.setTextColor(mIconTint);
+        mCenterClock.setTextColor(mIconTint);
+        mLeftClock.setTextColor(mIconTint);
         applyNotificationIconsTint();
     }
 
