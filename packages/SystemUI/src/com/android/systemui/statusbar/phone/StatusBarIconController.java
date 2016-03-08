@@ -85,6 +85,7 @@ public class StatusBarIconController implements Tunable {
     // Center clock
     private LinearLayout mCenterClockLayout;
     private TextView mCenterClock;
+    private TextView mLeftClock;
     private boolean mShowClock;
     private int mClockLocation;
 
@@ -133,7 +134,8 @@ public class StatusBarIconController implements Tunable {
         mBatteryLevelTextView = (BatteryLevelTextView) statusBar.findViewById(R.id.battery_level_text);
         mClock = (TextView) statusBar.findViewById(R.id.clock);
         mCenterClockLayout = (LinearLayout)statusBar.findViewById(R.id.center_clock_layout);
-        mClock = (TextView) statusBar.findViewById(R.id.center_clock);
+        mCenterClock = (TextView) statusBar.findViewById(R.id.center_clock);
+        mLeftClock = (TextView) statusBar.findViewById(R.id.left_clock);
         mLinearOutSlowIn = AnimationUtils.loadInterpolator(mContext,
                 android.R.interpolator.linear_out_slow_in);
         mFastOutSlowIn = AnimationUtils.loadInterpolator(mContext,
@@ -293,6 +295,9 @@ public class StatusBarIconController implements Tunable {
         }
         if (clockLocation == 1 && mCenterClock != null) {
             mCenterClock.setVisibility(visible ? (showClock ? View.VISIBLE : View.GONE) : View.GONE);
+        }
+        if (clockLocation == 2 && mLeftClock != null) {
+            mLeftClock.setVisibility(visible ? (showClock ? View.VISIBLE : View.GONE) : View.GONE);
         }
     }
 
