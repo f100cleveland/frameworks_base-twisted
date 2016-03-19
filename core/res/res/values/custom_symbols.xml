@@ -21,8 +21,8 @@
          SDK.  Instead, put them here. -->
     <private-symbols package="com.android.internal" />
 
-    <!-- Nameless -->
-    <java-symbol type="drawable" name="logo_nameless" />
+    <!-- Twisted -->
+    <java-symbol type="drawable" name="logo_twisted" />
 
     <!-- Boot dexopt layout -->
     <java-symbol type="drawable" name="dexopt_brand_logo" />
