@@ -152,4 +152,8 @@
     <!-- [CHAR LIMIT=130] Location detail panel, description for high accuracy mode -->
     <string name="quick_settings_location_detail_mode_high_accuracy_description">Use GPS, Wi\u2011Fi, and cellular networks to determine location </string>
 
+    <!-- Volume QS Tile -->
+    <string name="accessibility_quick_settings_volume_panel">Volume panel.</string>
+    <string name="quick_settings_volume_panel_label">Volume panel</string>
+
 </resources>
